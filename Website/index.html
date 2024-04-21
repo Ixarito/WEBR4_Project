@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Website</title>
+	<!-- private CSS -->
+	<link rel="stylesheet" href="assets/private/style/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header>
+        <nav class="navbar">
+            <div class="logo">
+				<a href="/">
+					ParkReference	
+				</a> 
+            </div>
+            <div class="hamburger-menu">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span> 
+            </div>
+            <div class="nav-menu hide">
+                <a href="#">Home</a>
+                <a href="#">Career</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+	<div class="home-background">
+		<div class="content">     
+			<div class="title">ParkReference</div>
+			<button class="search-button">Rechercher</button>
+			<div class="coaster"></div>
+			<div class="gradient"></div>
+		</div>
+	</div>
+
+	<div class="page-content">
+		<div class="container">
+			<div>
+				<h1 class="subtitle neon-text">
+					Qui sommes <span class="special-text">nous</span>? 
+				</h1>
+				<div class="text-area">
+					<p>
+						Votre guide ultime pour découvrir les parcs d'attractions du monde entier ! 
+					</p>
+					<p>
+						 Grâce à notre base de données complète, vous pouvez explorer une multitude de parcs, découvrir leurs attractions phares, leurs horaires, leurs tarifs et bien plus encore. Que vous soyez un aventurier à la recherche de sensations fortes ou une famille en quête d'une sortie divertissante, The Park Database est votre compagnon de voyage idéal dans le monde merveilleux des parcs d'attractions.
+					</p>
+					<p>
+						Rejoignez-nous dans cette aventure passionnante et commencez à planifier vos prochaines escapades magiques avec The Park Database !
+					</p>
+				</div>
+			</div>
+			<div>
+				<img class="about-image" alt="">
+			</div>
+		</div>
+		<div class="container direction-reverse">
+			<div>
+				<iframe class="map" id="gmap_canvas"
+				src="https://maps.google.com/maps?q=[LAT]%C2%B0,%20[LONG]%C2%B0
+				&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+				scrolling="no" marginheight="0" marginwidth="0"></iframe>
+			</div>
+			<div>
+				<div class="text-area">
+					<h1 class="subtitle mb-5 neon-text">
+						Voici un <span class="special-text">park</span>
+					</h1>
+					<p id="park-name">
+						Magic Kingdom Park	
+					</p>
+					<p id="park-city">
+						Orlando, Floride							
+					</p>
+					<p id="park-type">
+						Parc d'attractions
+					</p>
+					<button class="neon-button">
+						En savoir plus
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div>
+			<div class="footer-logo">
+				<a href="/">
+					ParkReference	
+				</a> 
+			</div>
+			<div class="footer-text">
+				<p>
+					© 2021 ParkReference. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/private/scripts/script.js"></script>
+</body>
+</html>
