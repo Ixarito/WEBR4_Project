@@ -1,0 +1,44 @@
+[
+    {
+    "id": "e957da41-3552-4cf6-b636-5babc5cbc4e5",
+    "name": "Walt Disney World® Resort",
+    "slug": "waltdisneyworldresort",
+    "location": {
+        "latitude": 28.388195,
+        "longitude": -81.569324
+    },
+    "timezone": "America/New_York",
+    "parks": [
+        {
+            "id": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+            "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/wdpro-assets/home/hpr/destination/happily-ever-after-blue-1x1.jpg",
+            "name": "Magic Kingdom Park"
+        },
+        {
+            "id": "47f90d2c-e191-4239-a466-5892ef59a88b",
+            "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/wdpro-assets/home/hpr/prelaunch-homepage-redesign-spaceship-earth-1x1.jpg",
+            "name": "EPCOT"
+        },
+        {
+            "id": "288747d1-8b4f-4a64-867e-ea7c9b27bad8",
+            "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/wdpro-assets/home/hpr/prelaunch-homepage-redesigntower-of-terror-1x1.jpg",
+            "name": "Disney's Hollywood Studios"
+        },
+        {
+            "id": "1c84a229-8862-4648-9c71-378ddd2c7693",
+            "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/wdpro-assets/home/hpr/prelaunch-homepage-redesign-tree-of-life-1x1.jpg",
+            "name": "Disney's Animal Kingdom Theme Park"
+        },
+        {
+            "id": "b070cbc5-feaa-4b87-a8c1-f94cca037a18",
+            "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1300/544/75/dam/wdpro-assets/parks-and-tickets/destinations/typhoon-lagoon/typhoon-lagoon-06-full.jpg",
+            "name": "Disney's Typhoon Lagoon Water Park"
+        },
+        {
+            "id": "ead53ea5-22e5-4095-9a83-8c29300d7c63",
+            "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1300/544/75/dam/wdpro-assets/parks-and-tickets/destinations/blizzard-beach/frozen-summer-games-blizzard-beach-concluded-girl-blizzard-beach-5x2.jpg",
+            "name": "Disney's Blizzard Beach Water Park"
+        }
+    ]
+    }
+]

@@ -1,0 +1,365 @@
+{
+    "id": "75ea578a-adc8-4116-a54d-dccb60765ef9",
+    "name": "Magic Kingdom Park",
+    "slug": "magickingdompark",
+    "location": {
+        "latitude": 28.4160036778,
+        "longitude": -81.5811902834,
+        "pointsOfInterest": []
+    },
+    "timezone": "America/New_York",
+    "destinationId": "e957da41-3552-4cf6-b636-5babc5cbc4e5",
+    "image": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/433/433/75/dam/wdpro-assets/home/hpr/destination/happily-ever-after-blue-1x1.jpg",
+    "blurb": "Although Walt Disney had been highly involved in planning EPCOT, he died before he could see the vision through. After Walt's death, Walt Disney Productions began construction on Magic Kingdom and the entire resort in 1967. The park was built as a larger, improved version of Disneyland Park in California.<br/>\n  <br/>\n  Magic Kingdom was built over a series of tunnels called utilidors, a portmanteau of utility and corridor, allowing employees (called \"cast members\") or VIP guests to move through the park out of sight.<br/>\n  <br/>\n  Because o...<div class=\"clearfix\" style=\"margin-top:7px;\"/><div class=\"pull-left\"><small>Source: Wikipedia</small></div><div class=\"pull-right\"><a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Magic_Kingdom#History\">Read More</a></div>",
+    "location": "Florida",
+    "size": "380,000",
+    "cost": "320,000,000",
+    "country": "USA",
+    "type": "Theme Park",
+    "brand": "Disney",
+    "year built": "1971",
+    "capacity": "53,000",
+    "url": "http://www.disneyworld.com",
+    "adultPrice": "$122",
+    "childPrice": "$117",
+    "capacityPerAttendance": "4 EU/'000 pp",
+    "attendancePerSize": "34 pp/sqm",
+    "sizePerCapacity": "7 sqm/EU",
+    "rides": [
+        {
+            "name": "Frontierland Shootin' Arcade",
+            "type": "Arcade",
+            "capacity": "190"
+        },
+        {
+            "name": "Barnstormer",
+            "type": "Coaster",
+            "capacity": "1,280"
+        },
+        {
+            "name": "Big Thunder Mountain Railroad",
+            "type": "Coaster",
+            "capacity": "2,400"
+        },
+        {
+            "name": "Seven Dwarfs Mine Train",
+            "type": "Coaster",
+            "capacity": "1,200"
+        },
+        {
+            "name": "Pirates of the Caribbean",
+            "type": "Dark Ride",
+            "capacity": "3,200"
+        },
+        {
+            "name": "Space Mountain",
+            "type": "Dark Ride",
+            "capacity": "720"
+        },
+        {
+            "name": "Peter Pan's Flight",
+            "type": "Dark Ride",
+            "capacity": "800"
+        },
+        {
+            "name": "it's a small world",
+            "type": "Dark Ride",
+            "capacity": "3,000"
+        },
+        {
+            "name": "Haunted Mansion",
+            "type": "Dark Ride",
+            "capacity": "3,200"
+        },
+        {
+            "name": "Under The Sea - Journey of the Little Mermaid",
+            "type": "Dark Ride",
+            "capacity": "2,200"
+        },
+        {
+            "name": "Buzz Lightyear's Space Ranger Spin",
+            "type": "Dark Ride",
+            "capacity": "800"
+        },
+        {
+            "name": "The Many Adventures of Winnie the pooh",
+            "type": "Dark Ride",
+            "capacity": "850"
+        },
+        {
+            "name": "Cinderella Castle",
+            "type": "Exhibit",
+            "capacity": "-"
+        },
+        {
+            "name": "Meet Tiana in Liberty Square",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Casey Jr. Splash 'N' Soak Station",
+            "type": "Explore/Play",
+            "capacity": "-"
+        },
+        {
+            "name": "Citizens of Main Street",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Enhanced Tales with Belle",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Fairytale Garden",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Town Square Theater",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Tom Sawyer Island",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Meet an Out of this World Friend in Tomorrowland",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Meet Characters from Aladdin in Adventureland",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Meet Chip 'n' Dale near The Diamond Horseshoe",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Meet Gaston near His Tavern",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Meet Peter Pan in Fantasyland",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Meet Tigger and Friends near the Many Adventures of Winnie the Pooh",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Sorcerers of the Magic Kingdom",
+            "type": "Explore/Play",
+            "capacity": "-"
+        },
+        {
+            "name": "Meet Toy Story Friends near Splash Mountain",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Swiss Family Treehouse",
+            "type": "Explore/Play",
+            "capacity": "-"
+        },
+        {
+            "name": "Ariel's Grotto FP",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Harmony Barber Shop",
+            "type": "Explore/Play",
+            "capacity": "50"
+        },
+        {
+            "name": "Princess Fairytale Hall",
+            "type": "Explore/Play",
+            "capacity": "500"
+        },
+        {
+            "name": "Pirate's Adventure ~ Treasures of the Seven Seas",
+            "type": "Explore/Play",
+            "capacity": "-"
+        },
+        {
+            "name": "Astro Orbiter",
+            "type": "Kids Ride",
+            "capacity": "420"
+        },
+        {
+            "name": "Dumbo the Flying Element",
+            "type": "Kids Ride",
+            "capacity": "480"
+        },
+        {
+            "name": "Walt Disney's Carousel of Progress",
+            "type": "Ride",
+            "capacity": "480"
+        },
+        {
+            "name": "Tomorrowland Speedway",
+            "type": "Ride",
+            "capacity": "500"
+        },
+        {
+            "name": "Tomorrowland Transit Authority PeopleMover",
+            "type": "Ride",
+            "capacity": "4,600"
+        },
+        {
+            "name": "The Magic Carpets of Aladdin",
+            "type": "Ride",
+            "capacity": "960"
+        },
+        {
+            "name": "Mad Tea Party",
+            "type": "Ride",
+            "capacity": "850"
+        },
+        {
+            "name": "Prince Charming Regal Carrousel",
+            "type": "Ride",
+            "capacity": "1,410"
+        },
+        {
+            "name": "Main Street Philharmonic at Main Street, U.S.A.",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Main Street Electrical Parade",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Disney Festival of Fantasy Parade",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Electrical Water Pageant",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Magic Kingdom Welcome Show",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "INCREDIBLES SuperDanceParty",
+            "type": "Show",
+            "capacity": "1,400"
+        },
+        {
+            "name": "Flag Retreat",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Main Street Philharmonic at Storybook Circus",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Stitch's Great Escape!",
+            "type": "Show",
+            "capacity": "490"
+        },
+        {
+            "name": "Casey's Corner Pianist",
+            "type": "Show",
+            "capacity": "80"
+        },
+        {
+            "name": "Celebrate The Magic",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Mickey's PhilharMagic",
+            "type": "Show",
+            "capacity": "1,490"
+        },
+        {
+            "name": "Monsters, Inc. Laugh Floor",
+            "type": "Show",
+            "capacity": "1,200"
+        },
+        {
+            "name": "Country Bear Jamboree",
+            "type": "Show",
+            "capacity": "1,140"
+        },
+        {
+            "name": "Captain Jack Sparrow's Pirate Tutorial",
+            "type": "Show",
+            "capacity": "250"
+        },
+        {
+            "name": "Wishes nighttime spectacular",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "The Hall of Presidents",
+            "type": "Show",
+            "capacity": "1,400"
+        },
+        {
+            "name": "The Dapper Dans",
+            "type": "Show",
+            "capacity": "-"
+        },
+        {
+            "name": "Dream Along With Mickey",
+            "type": "Show",
+            "capacity": "1,000"
+        },
+        {
+            "name": "The Notorious Banjo Brothers and Bob",
+            "type": "Show",
+            "capacity": "150"
+        },
+        {
+            "name": "Main Street Trolley Show",
+            "type": "Show",
+            "capacity": "180"
+        },
+        {
+            "name": "Main Street Vehicles",
+            "type": "Transport",
+            "capacity": "-"
+        },
+        {
+            "name": "Walt Disney World Railroad",
+            "type": "Transport",
+            "capacity": "3,150"
+        },
+        {
+            "name": "Liberty Square Riverboat",
+            "type": "Water Ride",
+            "capacity": "1,350"
+        },
+        {
+            "name": "Jungle Cruise",
+            "type": "Water Ride",
+            "capacity": "1,800"
+        },
+        {
+            "name": "Splash Mountain",
+            "type": "Water Ride",
+            "capacity": "1,200"
+        }
+    ]
+}
