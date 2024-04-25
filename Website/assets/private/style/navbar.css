@@ -1,0 +1,96 @@
+/* NAVBAR Begin */
+
+.navbar{
+	width: 90vw;
+	display: flex;
+	height: 3rem;
+	justify-content: space-between;
+	padding: 0.3rem 5vw;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.05);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+	color: white;
+}
+
+
+.hamburger-menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	fill: white;
+	width: 20px;
+	cursor: pointer;
+}
+
+
+.nav-menu{
+	display: none;
+	top: 5rem;
+	border-radius: 1rem;
+	font-weight: 600;
+}
+
+.nav-menu-mobile{
+	display: none;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+	padding: 1rem 0;
+	z-index: 100;
+	position: fixed;
+	width: 90vw;
+	top: 5rem;
+	left: 5vw;
+	border-radius: 1rem;
+	font-weight: 600;
+	background-color: rgba(255, 255, 255, 0.1);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-menu a{
+	color: white;
+	display: block;
+	text-align: center;
+	padding: 5px;
+}
+
+.nav-menu a:hover{
+	color: rgb(212, 212, 212);
+}
+
+.show{
+	display: flex;
+}
+
+
+/* for Desktop view  */
+@media screen and (min-width:600px){
+	.navbar{
+		justify-content: space-around;
+	}
+	.nav-menu{
+		display: block;
+	}
+	.nav-menu-mobile{
+		display: none;
+	}
+	.nav-menu a{
+		display: inline-block;
+		padding: 15px 20px;
+	}
+	.nav-menu a:hover{
+		background-color: rgba(223, 251, 219, 0);
+		border-radius: 5px;
+	}
+	.hamburger-menu{
+		display: none;
+	}
+}
+
+/* NavBar End */

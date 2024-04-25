@@ -1,5 +1,4 @@
-[
-    {
+{
     "id": "e957da41-3552-4cf6-b636-5babc5cbc4e5",
     "name": "Walt Disney World® Resort",
     "slug": "waltdisneyworldresort",
@@ -40,5 +39,4 @@
             "name": "Disney's Blizzard Beach Water Park"
         }
     ]
-    }
-]
+}

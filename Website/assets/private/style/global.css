@@ -1,3 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(253.11deg, #000000 8.42%, #001d33 100%);background-blend-mode: multiply, overlay, color-dodge, darken, difference, difference, normal;
+	color: white;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+header {
+	z-index: 100;
+	position: fixed;
+}
+
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+
+
 /* Gblobal Begin */
 
 .w-neon-text {
@@ -10,6 +42,10 @@
 	filter: drop-shadow(0 0 2rem #00b7ff);
 }
 
+.text-center{
+    text-align: center;
+}
+
 .page-content {
 	background-image: url(../images/gradientReverse.png);
 	display: flex;
@@ -19,6 +55,7 @@
 	background-position: top;
 	background-size: cover;
 	gap: 10rem;
+    padding-top: 8rem;
 }
 
 .container {
@@ -43,6 +80,7 @@
 	flex-direction: column;
 	gap: 1rem;
 }
+
 .map {
 	width: 80vw;
 	height: 400px;
@@ -74,9 +112,6 @@
 
 
 @media screen and (min-width: 900px){
-	.page-content {
-		padding-top: 10rem;
-	}
 	.container {
 		flex-direction: row;
 		gap: 10rem;
