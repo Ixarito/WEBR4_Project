@@ -1,0 +1,109 @@
+/* Gblobal Begin */
+
+.w-neon-text {
+	color: white;
+	filter: drop-shadow(0 0 2rem #ffffff84);
+}
+
+.b-neon-text {
+	color: #4fc4ff;
+	filter: drop-shadow(0 0 2rem #00b7ff);
+}
+
+.page-content {
+	background-image: url(../images/gradientReverse.png);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-position: top;
+	background-size: cover;
+	gap: 10rem;
+}
+
+.container {
+	max-width: 80vw;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+
+.subtitle {
+	font-size: 3rem;
+	font-weight: 600;
+}
+
+.text-area {
+	font-size: 1rem;
+	max-width: 1000px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.map {
+	width: 80vw;
+	height: 400px;
+	border-radius: 20px;
+	filter: drop-shadow(0 0 5rem #d1e6d975);
+}
+
+
+.direction-reverse{
+	flex-direction: column-reverse;
+
+}
+
+.neon-button {
+	color: #001d33;
+	width: fit-content;
+	font-size: 1rem;
+	padding: 0.5em 1em;
+	background-color: #4fc4ff;
+	border-radius: 10px;
+	filter: drop-shadow(0 0 1rem #00b7ff99);
+	transition: 0.2s ease-in-out;
+}
+
+.neon-button:hover {
+	background-color: #00b7ff;
+	cursor: pointer;
+}
+
+
+@media screen and (min-width: 900px){
+	.page-content {
+		padding-top: 10rem;
+	}
+	.container {
+		flex-direction: row;
+		gap: 10rem;
+		align-items: center;
+	}
+	.subtitle {
+		font-size: 5rem;
+	}
+	.text-area {
+		font-size: 1.5rem;
+	}
+	.map{
+		width: 600px;
+	
+	}
+	
+}
+
+
+
+@media screen and (min-width: 1400px){
+	
+	.container {
+		max-width: 1400px;
+	}
+	
+}
+
+
+/* Global End */
