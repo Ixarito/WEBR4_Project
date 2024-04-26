@@ -10,8 +10,7 @@
 	<link rel="stylesheet" href="assets/private/style/global.css">
 	<!-- footer css -->
 	<link rel="stylesheet" href="assets/private/style/footer.css">
-	<!-- home css -->
-	<link rel="stylesheet" href="assets/private/style/home.css">
+
 	<!-- park -->
 	<link rel="stylesheet" href="assets/private/style/park.css">
 
@@ -33,7 +32,6 @@
 						d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
 				</svg>
 			</div>
-			<!-- using of 2 links to allow backdrop filter -->
 
 			<!-- desktop -->
 			<div class="nav-menu">
@@ -55,34 +53,28 @@
 
 	<div class="page-content">
 		<div class="container">
-			<h1 class="subtitle w-neon-text text-center">
-				Walt Disney World® Resort
-			</h1>
+			<a class="subtitle b-neon-text text-center" id="park-name" href="">
+				
+			</a>
 		</div>
 		<div class="container direction-reverse">
-			<div>
-				<div class="text-area">
-					<p>
-						Votre guide ultime pour découvrir les parcs d'attractions du monde entier !
-					</p>
-					<p>
-						Grâce à notre base de données complète, vous pouvez explorer une multitude de parcs, découvrir
-						leurs attractions phares, leurs horaires, leurs tarifs et bien plus encore. Que vous soyez un
-						aventurier à la recherche de sensations fortes ou une famille en quête d'une sortie
-						divertissante, The Park Database est votre compagnon de voyage idéal dans le monde merveilleux
-						des parcs d'attractions.
-					</p>
-					<p>
-						Rejoignez-nous dans cette aventure passionnante et commencez à planifier vos prochaines
-						escapades magiques avec <span class="b-neon-text">ParkReference</span> !
-					</p>
-				</div>
+			<div id="park-info-area">
+				
 			</div>
 			<div>
-				<img class="about-image" src="assets/private/images/about.jpg" alt="">
+				<img class="about-image" id="park-image" src="assets/private/images/about.jpg" alt="">
+			</div>
+		</div>
+		<h1>Les manèges</h1>
+		<div class="container">
+			<div class="park-table">
+				<table id="park-rides">
+				</table>
 			</div>
 		</div>
 	</div>
+
+
 
 	<div class="footer">
 		<div class="footer-logo">
@@ -96,6 +88,7 @@
 			</p>
 		</div>
 	</div>
+	<script src="assets/private/scripts/park.js"></script>
 	<script src="assets/private/scripts/navbar.js"></script>
 </body>
 

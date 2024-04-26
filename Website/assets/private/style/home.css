@@ -65,14 +65,6 @@
 
 
 
-.about-image {
-	width: 100%;
-	border-radius: 20px;
-	filter: drop-shadow(0 0 5rem #2894ff5a);
-}
-
-
-
 #park-name{
 	font-size: 1.5rem;
 	font-weight: 700;
