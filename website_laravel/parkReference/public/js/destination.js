@@ -1,6 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const destinationId = urlParams.get('id');
 
+
 fetch('../assets/private/data/destination.json')
     .then(response => response.json())
     .then(data => {
@@ -8,18 +9,20 @@ fetch('../assets/private/data/destination.json')
 
         for (park of data.parks) {
             const cardHTML = `
-            <a class="card destination-card" href="park.html?id=${data.id}">
-                <img class="card-image" src="${park.image}">
-                <div class="card-text">
-                    <h2 class="card-title">${park.name}</h2>
-                </div>
-            </a>
+            <div class="card">
+					<img class="card-image" src="${data.parks[getRandomInt(data.parks.length)].image}">
+					<h2 class="card-title">${data.name}</h2>
+					<div class="card-text">
+						<p class="card-description">${data.timezone}</p>
+						<a class="neon-button" href="destination.html?id=${data.id}">En savoir plus</a>
+					</div>
+				</div>
             `;
             cardsDisplayArea.innerHTML += cardHTML;
         }
 
         //ouvrir une autre page html
-        
-        
+
+
 
     });
