@@ -1,0 +1,75 @@
+/* Home Begin */
+
+.home-background {
+	width: 100%;
+	height: 100vh;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-position: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.home-content {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.home-title {
+	color: white;
+	font-size: 2.7rem;
+	font-weight: 800;
+}
+
+
+.home-button {
+	font-size: 1.5rem;
+	padding: 0.2em 1em;
+	background-color: white;
+	color: #135081;
+	border-radius: 10px;
+}
+
+.home-button:hover {
+	background-color: #f2f2f2;
+	cursor: pointer;
+}
+
+.coaster, .gradient {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	pointer-events: none;
+	background-size: cover;
+	background-position: bottom;
+}
+
+.coaster {
+	background-image: url(../images/coaster.png);
+}
+
+.gradient {
+	background-image: url(../images/gradient.png);
+}
+
+
+@media screen and (min-width: 600px){
+	.home-title {
+		font-size: 4.5rem;
+	}
+}
+
+
+
+#park-name{
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+
+
+/* Home End */

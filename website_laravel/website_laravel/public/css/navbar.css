@@ -17,6 +17,7 @@
 	color: white;
 }
 
+
 .hamburger-menu{
 	display: flex;
 	align-items: center;
@@ -25,6 +26,7 @@
 	width: 20px;
 	cursor: pointer;
 }
+
 
 .nav-menu{
 	display: none;
