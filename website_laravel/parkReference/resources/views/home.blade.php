@@ -47,11 +47,11 @@
         </div>
         <div class="container direction-reverse">
             <div>
-                <iframe class="map" id="gmap_canvas"
-                        src="https://maps.google.com/maps?q=28.4160036778%C2%B0,%20-81.5811902834%C2%B0
-				&t=&z=13&ie=UTF8&iwloc=&output=embed">
-
-                </iframe>
+                @if($park->image)
+                    <img class="about-image" src="{{$park->image}}">
+                @else
+                    <img class="about-image" src="https://placehold.co/600x400?text=ParkReference">
+                @endif
             </div>
             <div>
                 <div class="text-area">
@@ -59,15 +59,15 @@
                         Voici un <span class="b-neon-text">park</span>
                     </h1>
                     <p id="park-name">
-                        Magic Kingdom Park
+                        {{$park->name}}
                     </p>
                     <p id="park-city">
-                        ➜ Orlando, Floride
+                        ➜ Localisation : {{$park->location}}
                     </p>
                     <p id="park-type">
-                        ➜ Parc d'attractions
+                        ➜ Type : {{$park->type}}
                     </p>
-                    <a class="neon-button">
+                    <a class="neon-button" href="/park/{{$park->id}}">
                         En savoir plus
                     </a>
                 </div>
