@@ -128,23 +128,23 @@ button {
 		font-size: 5rem;
 	}
 	.text-area {
-		font-size: 1.5rem;
+		font-size: 1.2rem;
 	}
 	.map{
 		width: 600px;
-	
+
 	}
-	
+
 }
 
 
 
 @media screen and (min-width: 1400px){
-	
+
 	.container {
 		max-width: 1400px;
 	}
-	
+
 }
 
 

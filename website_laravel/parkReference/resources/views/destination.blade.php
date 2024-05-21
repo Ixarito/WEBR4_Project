@@ -1,7 +1,7 @@
-@extends("base")
+@extends('base')
 
 @section('title')
-{{--    'ParkReference - {{$destination->name}}'--}}
+    ParkReference - {{$destination->name}}
 @endsection
 
 @section('style')
