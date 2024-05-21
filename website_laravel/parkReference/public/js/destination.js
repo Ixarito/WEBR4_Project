@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const destinationId = urlParams.get('id');
 
-
+// TODO REMOVE
 fetch('../assets/private/data/destination.json')
     .then(response => response.json())
     .then(data => {

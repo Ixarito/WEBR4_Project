@@ -3,13 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Destination;
-use App\Models\Park;
 use Illuminate\Http\Request;
 
-class SearchController extends Controller
+class DestinationController extends Controller
 {
-
-
 
     public function index()
     {
@@ -20,6 +17,21 @@ class SearchController extends Controller
 
         return view('search', [
             'destinations' => $destinations
+        ]);
+    }
+
+    public function show($id)
+    {
+        if (!is_numeric($id)) {
+            abort(404);
+        }
+
+        $destination = Destination::findOrFail((int)$id);
+        $parks = $destination->parks;
+
+        return view('destination', [
+            'destination' => $destination,
+            'parks' => $parks
         ]);
     }
 }

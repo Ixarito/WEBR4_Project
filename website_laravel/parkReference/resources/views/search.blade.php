@@ -3,7 +3,7 @@
 @section('title', 'ParkReference - Rechercher')
 
 @section('style')
-    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="{{asset('css/search.css')}}">
 @endsection
 
 @section('content')
@@ -14,7 +14,6 @@
             </div>
         </div>
         <div id="destination-display-area" class="cards-container">
-{{--            {{dd($destinations)}}--}}
             @foreach($destinations as $destination)
                 <div class="card">
                     @if($destination->image)

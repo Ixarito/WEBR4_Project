@@ -11,8 +11,12 @@ class Destination extends Model
 
     public function getImage()
     {
-
         $park = $this->hasMany(Park::class)->inRandomOrder()->first();
         return $park?->image;
+    }
+
+    public function parks()
+    {
+        return $this->hasMany(Park::class);
     }
 }

@@ -3,7 +3,7 @@ function getRandomInt(max) {
 	return Math.floor(Math.random() * max);
 }
 
-
+// TODO REMOVE
 fetch('../assets/private/data/destination.json')
 	.then(response => response.json())
 	.then(data => {
@@ -22,7 +22,6 @@ fetch('../assets/private/data/destination.json')
 				</div>
 				`;
 			cardsDisplayArea.innerHTML += cardHTML;
-			
+
 		}
 	});
-	
