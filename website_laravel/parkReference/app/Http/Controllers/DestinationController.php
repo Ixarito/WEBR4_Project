@@ -15,7 +15,7 @@ class DestinationController extends Controller
             $destination->image = $destination->getImage();
         });
 
-        return view('search', [
+        return view('destinations', [
             'destinations' => $destinations
         ]);
     }

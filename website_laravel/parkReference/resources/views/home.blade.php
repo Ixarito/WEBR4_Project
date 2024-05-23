@@ -10,7 +10,7 @@
     <div class="home-background">
         <div class="home-content">
             <div class="home-title" id="title">ParkReference</div>
-            <a class="home-button" id="title-button" href="/search">Rechercher</a>
+            <a class="home-button" id="title-button" href="/destinations">Rechercher</a>
             <div class="coaster"></div>
             <div class="gradient"></div>
         </div>

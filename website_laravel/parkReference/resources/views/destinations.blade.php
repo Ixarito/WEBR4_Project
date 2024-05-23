@@ -3,7 +3,7 @@
 @section('title', 'ParkReference - Rechercher')
 
 @section('style')
-    <link rel="stylesheet" href="{{asset('css/search.css')}}">
+    <link rel="stylesheet" href="{{asset('css/destinations.css')}}">
 @endsection
 
 @section('content')
@@ -23,7 +23,7 @@
                     @endif
                     <h2 class="card-title">{{$destination->name}}</h2>
                     <div class="card-text">
-                        <a class="neon-button" href="/destination/{{ $destination->id }}">En savoir plus</a>
+                        <a class="neon-button" href="/destinations/{{ $destination->id }}">En savoir plus</a>
                     </div>
                 </div>
             @endforeach

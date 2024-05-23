@@ -84,8 +84,9 @@
         <div>
             <label for="cars">Filtrer :</label>
             <select name="types" id="types">
+                <option value="all">Tout</option>
                 @foreach($allRideTypes as $type)
-                    <option value="{{$type}}" onclick="console.log('{{$type}}')">{{$type}}</option>
+                    <option value="{{$type}}">{{$type}}</option>
                 @endforeach
             </select>
         </div>

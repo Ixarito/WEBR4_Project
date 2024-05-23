@@ -8,7 +8,7 @@
     <!-- home css -->
     <link rel="stylesheet" href="{{asset('css/destination.css')}}">
     <!-- search - for cards -->
-    <link rel="stylesheet" href="{{asset('css/search.css')}}">
+    <link rel="stylesheet" href="{{asset('css/destinations.css')}}">
 @endsection
 
 @section('content')
