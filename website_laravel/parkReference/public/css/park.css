@@ -19,15 +19,30 @@ th, td {
     padding: 1rem;
 }
 
-
-
 tr:nth-child(even) {
     background-color: #f9f9f912;
+}
+
+#types{
+    font-size: 1rem;
+    padding: 0 5px;
+    color: white;
+    background: #0d161d;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /*override*/
 .text-area{
     max-width: none;
+}
+
+.rides-title-zone{
+    margin-top: 5rem;
+    text-align: center;
+    justify-content: space-around;
 }
 
 
@@ -36,7 +51,7 @@ tr:nth-child(even) {
 .park-table{
     max-height: 500px;
     width: 100%;
-    border-radius: 20px 0px 0px 20px;
+    border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     overflow: auto;
 }

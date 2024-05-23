@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Park;
-use App\Models\Ride;
+use App\Models\Type;
 
 class ParkController
 {
@@ -14,9 +14,12 @@ class ParkController
 
         $rides = $park->rides()->with('type')->get();
 
+        $allRideNames = Type::all()->pluck('name');
+
         return view('park', [
             'park' => $park,
-            'rides' => $rides
+            'rides' => $rides,
+            'allRideTypes' => $allRideNames
         ]);
     }
 }

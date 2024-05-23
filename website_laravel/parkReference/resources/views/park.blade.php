@@ -12,7 +12,7 @@
 @section('content')
     <div class="page-content">
         <div class="container">
-            <a class="subtitle b-neon-text text-center" id="park-name" href="{{$park->url}}">
+            <a class="subtitle b-neon-text text-center" id="park-name" href="{{$park->url}}" target="_blank">
                 {{$park->name}}
             </a>
         </div>
@@ -79,7 +79,17 @@
                 @endif
             </div>
         </div>
-    <h1>Attractions</h1>
+    <div class="container rides-title-zone">
+        <h1>Attractions</h1>
+        <div>
+            <label for="cars">Filtrer :</label>
+            <select name="types" id="types">
+                @foreach($allRideTypes as $type)
+                    <option value="{{$type}}" onclick="console.log('{{$type}}')">{{$type}}</option>
+                @endforeach
+            </select>
+        </div>
+    </div>
         <div class="container">
             <div class="park-table">
                 <table id="park-rides">
@@ -89,7 +99,7 @@
                         <th>Capacité</th>
                     </tr>
                     @foreach($rides as $ride)
-                        <tr>
+                        <tr id="park-ride" class="{{$ride->type->name}}">
                             <td>{{$ride->name}}</td>
                             @if ($ride->type)
                                 <td>{{$ride->type->name}}</td>
@@ -107,4 +117,8 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('script')
+    <script src="{{asset('js/park.js')}}"></script>
 @endsection
