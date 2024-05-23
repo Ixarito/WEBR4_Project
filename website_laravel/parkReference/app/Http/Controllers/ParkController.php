@@ -9,12 +9,9 @@ class ParkController
 {
     public function show($id)
     {
-        if (!is_numeric($id)) {
-            abort(404);
-        }
 
-        $park = Park::findOrFail((int)$id);
-//        TODO explain
+        $park = Park::findOrFail($id);
+
         $rides = $park->rides()->with('type')->get();
 
         return view('park', [

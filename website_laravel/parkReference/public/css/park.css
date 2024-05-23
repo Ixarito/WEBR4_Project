@@ -25,6 +25,12 @@ tr:nth-child(even) {
     background-color: #f9f9f912;
 }
 
+/*override*/
+.text-area{
+    max-width: none;
+}
+
+
 /* usion of additional container fot the table to allow border with border radious */
 /* avoid problems from border collapse */
 .park-table{
@@ -38,9 +44,4 @@ tr:nth-child(even) {
 /* override  */
 .page-content{
     gap: 3rem;
-}
-
-/* override  */
-.about-image{
-    filter: none;
 }

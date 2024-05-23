@@ -9,6 +9,13 @@ class Destination extends Model
 {
     use HasFactory;
 
+    protected $table = "destinations";
+    protected $keyType = "string";
+    protected $primaryKey = "id";
+
+//    public $timestamps = false;
+
+
     public function getImage()
     {
         $park = $this->hasMany(Park::class)->inRandomOrder()->first();

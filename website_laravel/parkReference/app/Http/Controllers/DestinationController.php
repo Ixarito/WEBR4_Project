@@ -22,11 +22,7 @@ class DestinationController extends Controller
 
     public function show($id)
     {
-        if (!is_numeric($id)) {
-            abort(404);
-        }
-
-        $destination = Destination::findOrFail((int)$id);
+        $destination = Destination::findOrFail($id);
         $parks = $destination->parks;
 
         return view('destination', [

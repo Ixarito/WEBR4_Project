@@ -16,6 +16,15 @@
                 {{$park->name}}
             </a>
         </div>
+        @if($park->blurb)
+            <div class="container">
+                <div class="text-center text-area">
+                    {{-- TUCHY ! --}}
+                    {!! $park->blurb  !!}
+                </div>
+            </div>
+        </div>
+        @endif
         <div class="container direction-reverse">
             <div id="park-info-area" class="text-area">
                 @if($park->name)
@@ -70,7 +79,7 @@
                 @endif
             </div>
         </div>
-        <h1>Attractions</h1>
+    <h1>Attractions</h1>
         <div class="container">
             <div class="park-table">
                 <table id="park-rides">

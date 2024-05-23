@@ -9,6 +9,10 @@ class Park extends Model
 {
     use HasFactory;
 
+    protected $table = "parks";
+    protected $keyType = "string";
+    protected $primaryKey = "id";
+
     public function rides()
     {
         return $this->hasMany(Ride::class);
