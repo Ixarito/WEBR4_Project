@@ -12,23 +12,22 @@ function search() {
             .then(response => response.json())
             .then(data => {
                 const cardsDisplayArea = document.getElementById('park-display-area');
-
+                let cardsHTML = '';
                 for (park of data) {
-                    var cardHTML = `
+                    cardsHTML += `
                         <a class="card destination-card" href="/park/${park.id}">
                         `;
                         if(park.image){
-                            cardHTML += `<img class="card-image" src="${park.image}">`;
+                            cardsHTML += `<img class="card-image" src="${park.image}">`;
                         } else{
-                            cardHTML += `<img class="card-image" src="https://placehold.co/600x400?text=ParkReference">`;
+                            cardsHTML += `<img class="card-image" src="https://placehold.co/600x400?text=ParkReference">`;
                         }
-                    cardHTML += `<div class="card-text">
+                    cardsHTML += `<div class="card-text">
                             <h2 class="card-title">${park.name}</h2>
                         </div>
                     </a>`;
-                    cardsDisplayArea.innerHTML += cardHTML;
                 }
+                cardsDisplayArea.innerHTML = cardsHTML;
             })
-            .catch(error => console.error('Erreur:', error));
     }
 }
