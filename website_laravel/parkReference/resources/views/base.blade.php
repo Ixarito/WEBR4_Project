@@ -32,18 +32,16 @@
         </div>
         <!-- desktop -->
         <div class="nav-menu">
-            <a href="#" class="current-page-menu">Home</a>
-            <a href="#">Career</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <a href="/" class="current-page-menu">Acceuil</a>
+            <a href="/destinations">Annuaire</a>
+            <a href="/search">Recherche</a>
         </div>
     </nav>
     <!-- mobile -->
     <div class="nav-menu-mobile">
-        <a href="#">Home</a>
-        <a href="#">Career</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="/">Acceuil</a>
+        <a href="/destinations">Annuaire</a>
+        <a href="/search">Recherche</a>
     </div>
 </header>
 

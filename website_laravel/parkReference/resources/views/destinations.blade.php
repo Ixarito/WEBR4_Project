@@ -8,11 +8,6 @@
 
 @section('content')
     <div class="page-content">
-        <div class="container">
-            <div class="search-zone">
-                <input class="search-input" type="text" placeholder="Rechercher"><button class="search-button">O</button>
-            </div>
-        </div>
         <div id="destination-display-area" class="cards-container">
             @foreach($destinations as $destination)
                 <div class="card">
@@ -29,8 +24,4 @@
             @endforeach
         </div>
     </div>
-@endsection
-
-@section('script')
-    <script src="{{ asset('js/directory.js') }}"></script>
 @endsection

@@ -17,6 +17,10 @@
 	border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.search-button:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
 .search-input{
 	color: white;
 	width: 80%;
@@ -87,6 +91,7 @@
 
 /* override CSS */
 .page-content {
+    min-height: 75vh;
     gap: 5rem;
 }
 
@@ -114,4 +119,4 @@
 	}
 }
 
-/* Shearch Page End*/
+/* search Page End*/
