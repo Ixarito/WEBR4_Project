@@ -73,9 +73,9 @@
             </div>
             <div>
                 @if($park->image)
-                    <img class="about-image" id="park-image" src="{{$park->image}}" alt="">
+                    <img class="about-image" id="park-image" src="{{$park->image}}" alt="{{$park->image}}">
                 @else
-                    <img class="about-image" id="park-image" src="https://placehold.co/600x400?text=ParkReference" alt="">
+                    <img class="about-image" id="park-image" src="https://placehold.co/600x400?text=ParkReference" alt="{{$park->image}}">
                 @endif
             </div>
         </div>
@@ -100,7 +100,7 @@
                         <th>Capacité</th>
                     </tr>
                     @foreach($rides as $ride)
-                        <tr id="park-ride" class="{{$ride->type->name}}">
+                        <tr class="park-ride {{$ride->type->name}}">
                             <td>{{$ride->name}}</td>
                             @if ($ride->type)
                                 <td>{{$ride->type->name}}</td>

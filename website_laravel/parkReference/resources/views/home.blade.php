@@ -42,13 +42,13 @@
                 </div>
             </div>
             <div>
-                <img class="about-image" src="{{asset("images/about.webp")}}" alt="">
+                <img class="about-image" src="{{asset("images/about.webp")}}" alt="about image">
             </div>
         </div>
         <div class="container direction-reverse">
             <div>
                 @if($park->image)
-                    <img class="about-image" src="{{$park->image}}">
+                    <img class="about-image" src="{{$park->image}}" alt="{{$park->name}}">
                 @else
                     <img class="about-image" src="https://placehold.co/600x400?text=ParkReference">
                 @endif

@@ -30,9 +30,9 @@
         @foreach($parks as $park)
             <a class="card destination-card" href="/park/{{$park->id}}">
                 @if($park->image)
-                    <img class="card-image" src="{{$park->image}}">
+                    <img class="card-image" src="{{$park->image}}" alt="{{$park->name}}">
                 @else
-                    <img class="card-image" src="https://placehold.co/600x400?text=ParkReference">
+                    <img class="card-image" src="https://placehold.co/600x400?text=ParkReference" alt="{{$park->image}}">
                 @endif
                 <div class="card-text">
                     <h2 class="card-title">{{$park->name}}</h2>

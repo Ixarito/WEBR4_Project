@@ -2,7 +2,7 @@ var filter = document.getElementById('types');
 
 filter.addEventListener('change', function() {
     const type = this.value;
-    const rideRows = document.querySelectorAll('#park-ride');
+    const rideRows = document.querySelectorAll('.park-ride');
     if (type === "all"){
         rideRows.forEach(function (row){
             row.style.display = '';

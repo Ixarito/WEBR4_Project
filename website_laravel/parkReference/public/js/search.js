@@ -18,9 +18,9 @@ function search() {
                         <a class="card destination-card" href="/park/${park.id}">
                         `;
                         if(park.image){
-                            cardsHTML += `<img class="card-image" src="${park.image}">`;
+                            cardsHTML += `<img class="card-image" src="${park.image}" alt="${park.name}">`;
                         } else{
-                            cardsHTML += `<img class="card-image" src="https://placehold.co/600x400?text=ParkReference">`;
+                            cardsHTML += `<img class="card-image" src="https://placehold.co/600x400?text=ParkReference" alt="${park.name}">`;
                         }
                     cardsHTML += `<div class="card-text">
                             <h2 class="card-title">${park.name}</h2>
