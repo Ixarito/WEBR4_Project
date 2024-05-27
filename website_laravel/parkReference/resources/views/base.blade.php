@@ -13,6 +13,9 @@
     <!-- footer css -->
     <link rel="stylesheet" href="{{asset('css/footer.css')}}">
 
+    <!-- icon -->
+    <link rel="icon" type="image/x-icon" href="{{asset('images/icon.webp')}}">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>

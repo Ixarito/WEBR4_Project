@@ -46,7 +46,7 @@ button {
 }
 
 .page-content {
-	background-image: url(../images/gradientReverse.png);
+	background-image: url(../images/gradientReverse.webp);
 	display: flex;
 	justify-content: center;
 	align-items: center;

@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div>
-                <img class="about-image" src="{{asset("images/about.jpg")}}" alt="">
+                <img class="about-image" src="{{asset("images/about.webp")}}" alt="">
             </div>
         </div>
         <div class="container direction-reverse">
