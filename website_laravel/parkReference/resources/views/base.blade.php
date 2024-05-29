@@ -38,6 +38,7 @@
             <a href="/" class="current-page-menu">Acceuil</a>
             <a href="/destinations">Annuaire</a>
             <a href="/search">Recherche</a>
+            <a href="/rides">Attractions</a>
         </div>
     </nav>
     <!-- mobile -->
@@ -45,6 +46,7 @@
         <a href="/">Acceuil</a>
         <a href="/destinations">Annuaire</a>
         <a href="/search">Recherche</a>
+        <a href="/search">Attractions</a>
     </div>
 </header>
 
